@@ -1,0 +1,47 @@
+@import './styles/variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $text_color--dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  background-color: $bg_primary;
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: $primary_color;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1,
+h1 > span {
+  font-family: $destaque_font;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: $destaque_font;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content_area {
+  min-height: 100vh;
+  padding: 6rem 12rem;
+}

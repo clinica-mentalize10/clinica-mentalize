@@ -1,0 +1,95 @@
+@media (width < 1375px) {
+  .content_area {
+    padding: 6rem 5rem !important;
+  }
+
+  #logo_area {
+    article {
+      p {
+        font-size: 3rem !important;
+      }
+    }
+  }
+}
+
+@media (width < 1190px) {
+  .content_area {
+    padding: 3rem 3rem !important;
+  }
+
+  #navbar_list {
+    display: none !important;
+  }
+
+  #menu_icon {
+    display: block !important;
+  }
+}
+
+@media (width < 900px) {
+  #logo_area {
+    flex-direction: column-reverse;
+    justify-content: center !important;
+
+    article {
+      width: 100% !important;
+
+      p {
+        font-size: 2rem !important;
+      }
+
+      img {
+        width: 30% !important;
+      }
+    }
+  }
+
+  #about {
+    flex-direction: column;
+    gap: 2rem;
+
+    article {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      max-width: 600px;
+
+      img {
+        border-radius: 5px !important;
+      }
+    }
+
+    .about__descryption {
+      padding: 0 !important;
+    }
+  }
+
+  #queries {
+    article {
+      gap: 4rem !important;
+      flex-wrap: wrap;
+      max-width: 700px;
+      margin: auto;
+
+      .queries_container {
+        padding: 0 !important;
+        width: 100% !important;
+      }
+
+      .iframe_container {
+        width: 100% !important;
+        min-height: 230px;
+      }
+    }
+  }
+
+  #footer > #contacts > .contacts__container {
+    flex-direction: column;
+  }
+}
+
+@media (width < 650px) {
+  .content_area {
+    padding: 2rem 1rem !important;
+  }
+}

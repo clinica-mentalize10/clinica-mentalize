@@ -1,0 +1,35 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+#social {
+  background-color: $primary_color;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  * {
+    color: $text_color--light;
+  }
+
+  h2 {
+    color: $secondary_color;
+    text-align: center;
+  }
+
+  .social__instagram {
+    position: relative;
+    width: 100%;
+
+    .instagram_feed {
+      margin: auto;
+
+      > a {
+        scale: 0;
+      }
+
+      .es-header-follow-button:hover {
+        background-color: $primary_color;
+      }
+    }
+  }
+}

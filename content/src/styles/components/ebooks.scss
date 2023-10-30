@@ -1,0 +1,53 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+#ebooks {
+  h2 {
+    margin-bottom: 2.3rem;
+    text-align: center;
+  }
+
+  .ebooks__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    div {
+      width: 100%;
+      height: 400px;
+      background-color: rgb(185, 185, 185);
+
+      h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      img {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      .ebooks__descryption {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .ebooks__download {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        padding: .7rem 2.3rem;
+        border-radius: 4px;
+        background-color: $primary_color;
+        color: $text_color--light;
+
+        &:hover {
+          background-color: $secondary_color;
+          color: $primary_color;
+          transition: $transition;
+        }
+      }
+    }
+  }
+}

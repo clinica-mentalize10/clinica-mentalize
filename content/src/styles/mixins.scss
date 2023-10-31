@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+@mixin btn {
+  font-family: $destaque_font;
+  text-align: center;
+  background-color: $primary_color;
+  color: $text_color--light;
+  border: 1px solid $primary_color;
+  width: fit-content;
+  padding: 0.8rem 2.8rem;
+  border-radius: 5px;
+  transition: $transition;
+
+  &:hover {
+    background-color: transparent;
+    color: $primary_color;
+  }
+}

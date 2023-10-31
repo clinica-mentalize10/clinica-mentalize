@@ -1,0 +1,49 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+#specialties {
+  text-align: center;
+  background-color: $bg_secondary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  article {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+
+    h3 {
+      margin: 0.7rem 0;
+      font-size: 1.3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+
+    .specialty_icon__container {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: $secondary_color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p.descryption {
+      font-style: italic;
+    }
+  }
+
+  a {
+    @include btn;
+  }
+}

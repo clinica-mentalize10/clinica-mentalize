@@ -20,14 +20,14 @@ function App() {
         <LogoArea />
         <About />
         <Specialties />
-        <Team />
+        {/*<Team />
         <Queries />
-        <SocialNetworks />
-        {/* <Ebooks /> */}
+  <SocialNetworks />*/}
+        {/*<Ebooks /> */}
       </main>
-      <footer>
+      {/*<footer>
         <Footer />
-      </footer>
+</footer>*/}
     </>
   );
 }

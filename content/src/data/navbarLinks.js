@@ -6,17 +6,5 @@ export const navbarLinksList = [
     {
         destiny: '#specialties',
         text: 'especialidades'
-    },
-    {
-        destiny: '#team',
-        text: 'nossa equipe'
-    },
-    {
-        destiny: '#queries',
-        text: 'agendamento'
-    },
-    {
-        destiny: '#social',
-        text: 'contatos'
     }
 ]

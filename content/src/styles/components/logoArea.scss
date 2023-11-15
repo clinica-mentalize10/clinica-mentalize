@@ -25,10 +25,11 @@
     width: 60%;
     flex-direction: column;
 
-    p {
+    p.logo_text {
       font-size: 4rem;
       font-family: $destaque_font;
-      margin-bottom: 1rem
+      margin-bottom: 1rem;
+      color: #5a2241;
     }
 
     a {

@@ -7,7 +7,7 @@ function LogoArea() {
     <>
       <section className='content_area' id='logo_area'>
         <article className="text_article">
-          <p>
+          <p className="logo_text">
           Cuidar da mente é <br/> cuidar bem da vida!
           </p>
           <a href="#queries">Agendar Consulta</a>
